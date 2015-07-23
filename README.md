@@ -4,6 +4,7 @@
 
 Custom Raspberry Pi Add-on board used as a pressure transducer interface board for the [Galactic Aztec] rocket. The board has a single JST XH port for power input (Supply Voltage), 4 ethernet ports for interfacing with custom [pressure transducer connector boards] and 2 header pin ports (pressure transducer stepped-down voltage output) for optional ribbon cable connectivity.
 
+## Wiring
 The ethernet ports adhere to the following [T-568B] wiring configuration:
 
 | Pin | Color        | Function       |
@@ -17,6 +18,7 @@ The ethernet ports adhere to the following [T-568B] wiring configuration:
 | 7   | Brown/White  | Ground         |
 | 8   | Brown        | Ground         |
 
+## Launch
 For the [Galactic Aztec April 18th, 2015 launch], the following pressure transducers were used:
 * 3 x [P51-500-A-A-I36-5V-000-000]
   * LOX, Kerosene and motor pressure
